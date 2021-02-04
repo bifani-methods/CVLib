@@ -1,0 +1,23 @@
+name: CVLib
+
+channels:
+  - anaconda
+  - conda-forge
+
+dependencies:
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - jupyterlab
+  - jupytext
+  - nodejs
+  - ipytest
+
+  - matplotlib=3.1.1
+
+  - keras=2.3.1
+  - tensorflow=1.15.0
+
+  - pip
+  - pip:
+    - opencv-python==4.1.2.30
+    - cvlib==0.2.2
