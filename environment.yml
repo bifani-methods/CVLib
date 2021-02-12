@@ -1,16 +1,12 @@
 name: CVLib
 
 channels:
-  - anaconda
   - conda-forge
+  - defaults
 
 dependencies:
   - jupyter
   - jupyter_contrib_nbextensions
-  - jupyterlab
-  - jupytext
-  - nodejs
-  - ipytest
 
   - matplotlib=3.1.1
 
